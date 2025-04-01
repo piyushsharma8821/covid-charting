@@ -31,6 +31,16 @@ Below is a screenshot of the final chart generated in Excel:
 
 ## Project Structure
 
+├── excel-covid-chart/
+│   ├── assets/
+│   │   └── excel-chart.png    # Screenshot of the Excel chart
+│   ├── src/
+│   │   └── taskpane.ts        # Main TypeScript logic for Excel interaction
+├── covid_india.csv           # India-specific data parsed from global CSV
+├── covid_export.py        # Python script to extract India data
+└── README.md
+
+
 <br/>
 
 ## How to Run
